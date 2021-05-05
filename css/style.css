@@ -84,7 +84,38 @@ main section.projects .container {
 }
 
 main section.projects .container article {
-    width: 300px;
+    width: 450px;
+    max-width: 100%;
     background-color: #EEEEEE;
     color: #888888;
+}
+
+main section.projects .container article .thumb {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main section.projects .container article .info {
+    padding: 20px;
+}
+
+main section.projects .container article .info .price-tag {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section.projects .container article .info .price {
+    font-size: 30px;
+    margin: 0;
+}
+
+main section.projects .container article .info .tag {
+    padding: 5px 10px;
+    background-color: gray;
+    color: #fff;
+    margin: 0;
+    border-radius: 25px;
+    font-size: 25px;
 }
