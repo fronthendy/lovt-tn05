@@ -119,3 +119,11 @@ main section.projects .container article .info .tag {
     border-radius: 25px;
     font-size: 25px;
 }
+
+main section.projects .container article .info .tag-new {
+    background-color: #51D275;
+}
+
+main section.projects .container article .info .tag-sale {
+    background-color: #DC9730;
+}
