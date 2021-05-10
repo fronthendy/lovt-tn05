@@ -153,3 +153,44 @@ main section.styles article h3 {
     color: #fff;
     font-weight: 400;
 }
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a:any-link {
+    color: #ffffff;
+}
+
+footer iframe {
+    width: 400px;
+    height: 350px;
+    max-width: 100%;
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    main section.projects .container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main section.projects .container article {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 740px) {
+    footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
